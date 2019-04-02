@@ -54,3 +54,13 @@ UPDATE movies SET show_time = '17.20' WHERE id = 16;
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+DELETE FROM people WHERE id IN (1,2,3);
+IN = includes
+would need full name still
+
+WHERE name LIKE ('Dar%');
+% fills in blanks, before and after means searching for mid string
+
+WHERE id BETWEEN 2 AND 6;
+
+WHERE id >= 2;
